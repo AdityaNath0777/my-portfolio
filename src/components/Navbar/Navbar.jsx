@@ -4,23 +4,27 @@ import { HashLink as Link } from "react-router-hash-link";
 import "./navStyle.css";
 
 const Navbar = () => {
+  const MyLink = () =>
+    {
+      function NewTab() {
+        window.open(
+"https://github.com/AdityaNath0777", "_blank");
+    }
+
+    NewTab();
+  }
+
   return (
     <nav id="navbar" className="w-full px-8 mb-8">
-        <ul
-          className="nav-list flex flex-wrap justify-between items-center px-2 mb-4 text-xl"
-          style={{ fontFamily: "courier new" }}
-        >
-          <li className="portfolio-name mx-auto">
-            <a
-              href="https:/github.com/AdityaNath0777/"
-              rel="noreferrer"
-              target="_blank"
-            >
-              {" "}
-              {"<Aditya Mishra/>"}
-            </a>
-          </li>
-    <Router>
+      <ul
+        className="nav-list flex flex-wrap justify-between items-center px-2 mb-4 text-xl"
+        style={{ fontFamily: "courier new" }}
+      >
+        <li id="portfolio-to-github" className="portfolio-name mx-auto">
+          {" "}
+          <span style={{cursor: "pointer"}} onClick={MyLink}>{"< Aditya Mishra />"}</span>
+        </li>
+        <Router>
           <li className="w-full">
             <ul className="nav-link-container">
               <li className="active nav-link">
@@ -48,9 +52,9 @@ const Navbar = () => {
               </li>
             </ul>
           </li>
-    </Router>
-        </ul>
-      </nav>
+        </Router>
+      </ul>
+    </nav>
   );
 };
 
