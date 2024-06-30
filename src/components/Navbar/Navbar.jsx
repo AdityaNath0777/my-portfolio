@@ -5,8 +5,7 @@ import "./navStyle.css";
 
 const Navbar = () => {
   return (
-    <Router>
-      <nav id="navbar" className="w-full px-8 mb-8">
+    <nav id="navbar" className="w-full px-8 mb-8">
         <ul
           className="nav-list flex flex-wrap justify-between items-center px-2 mb-4 text-xl"
           style={{ fontFamily: "courier new" }}
@@ -21,6 +20,7 @@ const Navbar = () => {
               {"<Aditya Mishra/>"}
             </a>
           </li>
+    <Router>
           <li className="w-full">
             <ul className="nav-link-container">
               <li className="active nav-link">
@@ -48,9 +48,9 @@ const Navbar = () => {
               </li>
             </ul>
           </li>
+    </Router>
         </ul>
       </nav>
-    </Router>
   );
 };
 
