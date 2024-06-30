@@ -12,14 +12,21 @@ const Navbar = () => {
           style={{ fontFamily: "courier new" }}
         >
           <li className="portfolio-name mx-auto">
-            <Link to={"https:/github.com/AdityaNath0777/"}>
-              {"< Aditya Mishra />"}
-            </Link>
+            <a
+              href="https:/github.com/AdityaNath0777/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              {" "}
+              {"<Aditya Mishra/>"}
+            </a>
           </li>
           <li className="w-full">
-            <ul className="nav-link-container" >
+            <ul className="nav-link-container">
               <li className="active nav-link">
-                <Link to={"#about"}>About</Link>
+                <Link path="/about" to={"#about"}>
+                  About
+                </Link>
               </li>
               <li className="nav-link">
                 <Link to={"#skills"}>Skills</Link>
