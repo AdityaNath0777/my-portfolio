@@ -1,0 +1,64 @@
+.my-skill {
+    padding: 0.5rem 0.8rem;
+    /* border: 0.1rem solid #808080; */
+    margin: 0.7rem 0.5rem;
+    border-radius: 7px;
+    cursor: pointer;
+    /* color: #808080; */
+}
+
+.my-skill:hover{
+    border-color: darkviolet;
+    color: 	rgb(197, 80, 248);
+    transform: translateY(-6px);
+    filter: drop-shadow(0.2rem 0.2rem 1rem blue);
+    transition: all 0.2s ease-in-out;
+}
+
+.my-skill-container h1 {
+    font-size: 2.7rem;
+}
+
+.my-skill-container .my-desc {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    word-spacing: 0.1rem;
+}
+
+.skill-section {
+    padding-top: 7rem;
+}
+
+@media (max-width: 1000px){
+    .my-skill {
+        font-size: 0.8rem;
+        margin: 0.4rem 0.3rem;
+        /* font-size: 0.4rem; */
+    }
+    .my-desc {
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 800px){
+
+    .skill-section {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .skill-section .left-section {
+        width: 100%;
+        padding: 0;
+    }
+
+    #skills {
+        padding: 0;
+    }
+}
+
+@media (max-width: 550px){
+    .my-skill-container h1 {
+        font-size: 2.3rem;
+        text-align: center;
+    }
+}

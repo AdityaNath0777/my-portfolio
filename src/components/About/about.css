@@ -1,0 +1,72 @@
+.my-btn button {
+    border: 3px solid #f2f2f2;
+    border-radius: 7px;
+}
+
+.my-btn button:hover {
+    background-color: rgb(126, 34, 206);
+    border-color: azure;
+    transition: all 0.2s ease-in-out;
+}
+
+.my-container h1 {
+    font-size: 2.3rem;
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    font-family: cursive;
+}
+
+.my-container .my-name {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.my-container .my-desc {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+    word-spacing: 0.1rem;
+}
+
+@media (max-width: 800px){
+    .my-container h1 {
+        font-size: 2rem;
+    }
+    .my-container .my-desc {
+        font-size: 1rem;
+    }
+    .about-section {
+        flex-direction: column;
+        width: 100% !important;
+        padding: 0;
+    }
+    .about-section .left-section {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media (max-width: 550px){
+    #about .about-section {
+        margin-top: 7rem;
+    }
+
+    .about-section {
+        padding-top: 1rem !important;
+    }
+    .my-container .my-desc {
+        font-size: 0.9rem;
+        line-height: 1rem;
+    }
+
+    .my-container .my-name {
+        font-size: 2rem;
+    }
+
+    .my-btn button {
+        padding: 0.3rem 0.5rem;
+
+    }
+
+}

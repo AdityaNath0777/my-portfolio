@@ -1,0 +1,38 @@
+.exp-section {
+    padding-top: 5rem;
+}
+
+.exp-section h2 {
+    font-size: 2.3rem;
+}
+
+.exp-skills span {
+    /* color: gray; */
+    color: rgb(156, 163, 178);
+}
+
+.exp-skills span:hover{
+    color: rgb(216, 211, 214);
+    transition: all 0.1s ease-out;
+}
+
+.my-exp-container {
+    border: 2px solid rgb(216, 211, 214);
+    border-radius: 0.5rem;
+}
+
+
+@media (max-width: 800px){
+    .exp-section h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 550px){
+    #experience {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

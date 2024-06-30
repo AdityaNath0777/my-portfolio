@@ -1,0 +1,39 @@
+.my-pic-container img {
+  height: 100px;
+  margin: auto 0 auto auto;
+}
+
+@media (max-width: 800px) {
+  .contact-container {
+    grid-template-columns: auto !important;
+  }
+
+  .my-pic-container {
+    width: 100%;
+  }
+  .my-pic-container img {
+    margin: 1rem auto;
+    width: 5rem;
+  }
+
+  .my-contact-desc {
+    width: 60%;
+  }
+}
+
+@media (max-width: 550px) {
+  #contact {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .contact-section {
+    gap: 0.6rem;
+  }
+  .contact-section h2 {
+    text-align: center;
+    font-size: 2.1rem;
+    padding: 0;
+  }
+}

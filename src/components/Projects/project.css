@@ -1,0 +1,19 @@
+@media (max-width: 900px) {
+  .my-projects-list {
+    grid-template-columns: auto auto !important;
+    width: 100%;
+  }
+}
+@media (max-width: 550px) {
+  #projects {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .my-projects-list {
+    grid-template-columns: auto !important;
+    width: 100%;
+  }
+}
