@@ -22,8 +22,12 @@ const Navbar = () => {
       >
         <li id="portfolio-to-github" className="portfolio-name mx-auto">
           {" "}
+
+          {/* Keeping this method for Educational purposes  */}
           {/* <span style={{cursor: "pointer"}} onClick={MyLink}>{"< Aditya Mishra />"}</span> */}
-          <a href="https://github.com/AdityaNath0777/" target="_blank">{"Aditya Mishra"}</a>
+
+          {/* simpler method */}
+          <a href="https://github.com/AdityaNath0777/" target="_blank">{"< Aditya Mishra />"}</a>
         </li>
         <Router>
           <li className="w-full">
