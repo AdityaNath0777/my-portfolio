@@ -19,7 +19,7 @@
 #navbar {
     position:fixed;
     top: 0;
-    background-color: #212121;
+    background: linear-gradient(45deg, #1f245d, #394c99, #1f105e, #3e3ec9, #1a214e) !important;
     user-select: none;
 }
 

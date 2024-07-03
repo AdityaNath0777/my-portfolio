@@ -2,7 +2,7 @@ import React from "react";
 
 export const MyExp = (prop) => {
   return (
-    <div className="my-exp-container my-2 p-5">
+    <div className="my-exp-container w-full my-2 p-5">
       <div className="exp-top flex items-center gap-3 mb-2">
         <div className="exp-img-box">
           <img src="/vite.svg" alt="" />

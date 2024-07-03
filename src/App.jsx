@@ -10,7 +10,9 @@ import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
-    <div className="bg-[#212121] text-white w-full min-h-screen">
+    <div 
+      style={{backgroundImage: "repeating-linear-gradient(127deg, #010429, #121f51, #1f105e, #130a3c, #1a214e, #120c51)"}}
+    className="bg-slate-900 text-white w-full min-h-screen">
       <div className="container-width">
         <div className="container flex flex-col justify-center items-center mx-auto">
           <>

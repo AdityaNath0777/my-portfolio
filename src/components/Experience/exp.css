@@ -26,6 +26,10 @@
     .exp-section h2 {
         font-size: 2rem;
     }
+
+    .exp-list {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 550px){

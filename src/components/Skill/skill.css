@@ -8,10 +8,11 @@
 }
 
 .my-skill:hover{
-    border-color: darkviolet;
-    color: 	rgb(197, 80, 248);
+    border-color: #2c7cf7;
+    color: 	floralwhite;
     transform: translateY(-6px);
-    filter: drop-shadow(0.2rem 0.2rem 1rem blue);
+    backdrop-filter: 10px;
+    filter: drop-shadow(0.3rem -0.4rem 1rem #6c8cf7);
     transition: all 0.2s ease-in-out;
 }
 

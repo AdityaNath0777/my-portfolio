@@ -4,8 +4,10 @@
 }
 
 .my-btn button:hover {
-    background-color: rgb(126, 34, 206);
-    border-color: azure;
+    /* background-color: ; */
+    color: #f0fffff0;
+    backdrop-filter: 4px;
+    border-color:rgba(163, 194, 233, 0.8);
     transition: all 0.2s ease-in-out;
 }
 
