@@ -1,13 +1,19 @@
 const Bio = {
-  name: "Aditya Mishra",
+  firstName: "Aditya",
+  lastName: "Mishra",
   roles: ["Front-End Developer", "AI/ML Engineer", "Programmer"],
   description:
     "I am a front-end developer with expertise in HTML, CSS, JavaScript, and ReactJS, focused on creating visually appealing and user-friendly interfaces. Currently, I am also exploring AI/ML technologies, with plans to integrate them into web development in the future. I have hands-on experience with Arduino and a proven track record in event organization, demonstrating strong teamwork and leadership skills.",
+  tagLine: "Let's create something useful in a better way",
+  city: "New Delhi",
+  state: "Delhi",
+  country: "India",
+  resume: "", // will upload google word and paste the link
   github: "https://github.com/AdityaNath0777/",
-  resume: "",
   linkedin: "https://linkedin.com/in/aditya-mishra-0777am",
-  twitter: "",
-  insta: "",
+  mail: "adityanath0777@gmail.com",
+  insta: "", // will make another one
+  twitter: "", // new twitter on the way
 };
 
 const skills = [
@@ -189,22 +195,22 @@ const experience = [
 ];
 const education = [
   {
-    courseName: "Bachelor of Technology (B.Tech)", 
+    courseName: "Bachelor of Technology (B.Tech)",
     branch: "Electronics and Communication Enginnering",
     duration: {
       start: "Dec, 2021",
       end: "Jun, 2025",
-      expectedEnd: true
+      expectedEnd: true,
     },
     institute: "Bharati Vidyapeeth's College of Engineering, New Delhi",
   },
   {
-    courseName: "Sr. Secondary (10+2)", 
+    courseName: "Sr. Secondary (10+2)",
     branch: "Science (PCM)",
     duration: {
       start: "Dec, 2021",
       end: "Jun, 2025",
-      expectedEnd: false
+      expectedEnd: false,
     },
     institute: "GD Lancer's Public School, New Delhi",
   },
@@ -265,7 +271,5 @@ const myProjects = [
     desc: "Developed a responsive Spotify clone webpage using HTML, CSS, and JavaScript, mirroring the latest UI.",
   },
 ];
-
-export const primaryBgColor = "rgb(248 250 252)";
 
 export { Bio, skills, techStack, myProjects, experience, education };

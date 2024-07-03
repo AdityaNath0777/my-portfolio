@@ -3,6 +3,17 @@
   margin: auto 0 auto auto;
 }
 
+.tag-line {
+  font-size: 1.5rem;
+}
+.contact-name {
+  font-size: 1.7rem;
+}
+
+.mySocials {
+  width: 40% !important;
+}
+
 @media (max-width: 800px) {
   .contact-container {
     grid-template-columns: auto !important;
