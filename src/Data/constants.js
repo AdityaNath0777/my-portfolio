@@ -1,4 +1,4 @@
-export const Bio = {
+const Bio = {
   name: "Aditya Mishra",
   roles: ["Front-End Developer", "AI/ML Engineer", "Programmer"],
   description:
@@ -10,7 +10,7 @@ export const Bio = {
   insta: "",
 };
 
-export const skills = [
+const skills = [
   {
     title: "Frontend",
     skills: [
@@ -67,7 +67,7 @@ export const skills = [
   },
 ];
 
-export const techStack = [
+const techStack = [
   {
     name: "HTML5",
     role: "",
@@ -81,7 +81,7 @@ export const techStack = [
     role: "",
   },
   {
-    name: "React JS",
+    name: "ReactJS",
     role: "",
   },
   {
@@ -118,12 +118,12 @@ export const techStack = [
   },
 ];
 
-export const experience = [
+const experience = [
   {
-    role: "Tech Head",
+    role: "Vice Chaiperson BVP-ISTE",
     duration: {
-      start: "12, Jun",
-      end: "20, Oct",
+      start: "May 2024",
+      end: "present",
     },
     skills: [
       "HTML5",
@@ -134,30 +134,27 @@ export const experience = [
       "Git",
       "Leadership",
     ],
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, accusantium?",
+    desc: "commited to manage the college society. oragnize valuable events",
   },
   {
-    role: "Tech Head",
+    role: "Generative AI",
     duration: {
-      start: "12, Jun",
-      end: "20, Oct",
+      start: "Oct, 2023",
+      end: "Apr, 2023",
     },
     skills: [
-      "HTML5",
-      "Bootstrap",
-      "CSS",
-      "JavaScript",
-      "GitHub",
-      "Git",
-      "Leadership",
+      "python",
+      "transformers",
+      "stable diffusion",
+      "text-to-image generation",
     ],
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, accusantium?",
+    desc: "Conducted research on various text-to-image generation models, exploring their potential impact and applications across different fields.",
   },
   {
-    role: "Tech Head",
+    role: "Tech Head at NIDUS BVP",
     duration: {
-      start: "12 Jun, 2023",
-      end: "20 Oct, 2023",
+      start: "Oct 2023",
+      end: "May 2024",
     },
     skills: [
       "HTML5",
@@ -168,56 +165,52 @@ export const experience = [
       "Git",
       "Leadership",
     ],
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, accusantium?",
+    desc: "Led a 6-member team to develop a responsive website for the college society.",
+  },
+  {
+    role: "Softech Head at BVP-ISTE",
+    duration: {
+      start: "Oct 2023",
+      end: "May 2024",
+    },
+    skills: [
+      "HTML5",
+      "Bootstrap",
+      "CSS",
+      "JavaScript",
+      "ReactJS",
+      "AI/ML",
+      "GitHub",
+      "Git",
+      "Leadership",
+    ],
+    desc: "Successfully organized a 5-day online AI/ML Bootcamp with a team of 8. Developed and led the team for a website for the hackathon Hack The Crisis 3.0 oraganized by BVP-ISTE",
   },
 ];
-export const project = [
+const education = [
   {
-    name: "Tech Head",
+    courseName: "Bachelor of Technology (B.Tech)", 
+    branch: "Electronics and Communication Enginnering",
     duration: {
-      start: "12, Jun",
-      end: "20, Oct",
+      start: "Dec, 2021",
+      end: "Jun, 2025",
+      expectedEnd: true
     },
-    skills: ["React Js", "Vite" ],
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, accusantium?",
+    institute: "Bharati Vidyapeeth's College of Engineering, New Delhi",
   },
   {
-    name: "Tech Head",
+    courseName: "Sr. Secondary (10+2)", 
+    branch: "Science (PCM)",
     duration: {
-      start: "12, Jun",
-      end: "20, Oct",
+      start: "Dec, 2021",
+      end: "Jun, 2025",
+      expectedEnd: false
     },
-    skills: [
-      "HTML5",
-      "Bootstrap",
-      "CSS",
-      "JavaScript",
-      "GitHub",
-      "Git",
-      "Leadership",
-    ],
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, accusantium?",
-  },
-  {
-    name: "Tech Head",
-    duration: {
-      start: "12 Jun, 2023",
-      end: "20 Oct, 2023",
-    },
-    skills: [
-      "HTML5",
-      "Bootstrap",
-      "CSS",
-      "JavaScript",
-      "GitHub",
-      "Git",
-      "Leadership",
-    ],
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, accusantium?",
+    institute: "GD Lancer's Public School, New Delhi",
   },
 ];
 
-export const myProjects = [
+const myProjects = [
   {
     name: "Redux Toolkit Todo",
     duration: {
@@ -257,20 +250,20 @@ export const myProjects = [
     name: "MedUnited",
     duration: {
       start: "July 2023",
-      end: "July 2023"
+      end: "July 2023",
     },
     tags: ["HTML", "CSS", "JavaScript", "tailwind CSS", "fetch API"],
-    desc: "Developed MedUnited: a healthcare platform prototype with real-time hospital searches, facility data display, and an integrated online medicine shop, enhancing accessibility and convenience for users."
+    desc: "Developed MedUnited: a healthcare platform prototype with real-time hospital searches, facility data display, and an integrated online medicine shop, enhancing accessibility and convenience for users.",
   },
   {
     name: "Spotify Clone",
     duration: {
       start: "Feb 2023",
-      end: "Mar 2023"
+      end: "Mar 2023",
     },
     tags: ["HTML", "CSS", "JavaScript"],
-    desc: "Developed a responsive Spotify clone webpage using HTML, CSS, and JavaScript, mirroring the latest UI."
-  }
+    desc: "Developed a responsive Spotify clone webpage using HTML, CSS, and JavaScript, mirroring the latest UI.",
+  },
 ];
 
-// export { Bio, skills, techStack, myProjects, experience };
+export { Bio, skills, techStack, myProjects, experience, education };

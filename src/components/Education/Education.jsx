@@ -1,5 +1,5 @@
 import React from "react";
-import { experience } from "../../Data/constants";
+import { education } from "../../Data/constants";
 import myPic from "/vite.svg";
 import { MyEdu } from "./MyEdu";
 import "./edu.css";
@@ -13,7 +13,7 @@ const Education = () => {
         <div className="exp-container w-full flex flex-col justify-center items-center gap-3">
           <img src={myPic} alt="" style={{ width: "100px", height: "100px" }} />
 
-          {experience.map(MyEdu)}
+          {education.map(MyEdu)}
         </div>
       </div>
     </div>
