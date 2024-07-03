@@ -1,4 +1,7 @@
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
+  #projects {
+    width: 100% !important;
+  }
   .my-projects-list {
     grid-template-columns: auto auto !important;
     width: 100%;

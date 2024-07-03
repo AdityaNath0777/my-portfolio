@@ -1,13 +1,15 @@
-.nav-link {
+.activeLink {
     border-bottom: 3px solid transparent;
-} 
-.active {
     border-color: whitesmoke;
 }
 .nav-link:hover{
-    border-color: blueviolet;
     transform:  translate(-7px, -2px) ;
     transition: all 0.2s ease-in-out;
+}
+.nav-link a:hover {
+    border-bottom: 3px solid blueviolet;
+    /* border-color: blueviolet; */
+    color: blueviolet;
 }
 
 #navbar {

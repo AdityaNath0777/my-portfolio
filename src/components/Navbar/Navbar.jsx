@@ -4,15 +4,25 @@ import { HashLink as Link } from "react-router-hash-link";
 import "./navStyle.css";
 
 const Navbar = () => {
-  const MyLink = () =>
-    {
-      function NewTab() {
-        window.open(
-"https://github.com/AdityaNath0777", "_blank");
+  const MyLink = () => {
+    function NewTab() {
+      window.open("https://github.com/AdityaNath0777", "_blank");
     }
 
     NewTab();
-  }
+  };
+
+  const addActiveClassName = (e) => {
+    function myFunc() {
+      let navList = Array.from(document.getElementsByClassName("nav-link"));
+      navList.forEach((element) => {
+        element.firstChild.classList.remove("activeLink");
+      });
+      e.target.classList.add("activeLink");
+    }
+
+    myFunc();
+  };
 
   return (
     <nav id="navbar" className="w-full px-8 mb-8">
@@ -22,35 +32,82 @@ const Navbar = () => {
       >
         <li id="portfolio-to-github" className="portfolio-name mx-auto">
           {" "}
-
           {/* Keeping this method for Educational purposes  */}
           {/* <span style={{cursor: "pointer"}} onClick={MyLink}>{"< Aditya Mishra />"}</span> */}
-
           {/* simpler method */}
-          <a href="https://github.com/AdityaNath0777/" target="_blank">{"< Aditya Mishra />"}</a>
+          <a href="https://github.com/AdityaNath0777/" target="_blank">
+            {"< Aditya Mishra />"}
+          </a>
         </li>
         <Router>
           <li className="w-full">
             <ul className="nav-link-container">
-              <li className="active nav-link">
-                <Link path="/about" to={"#about"}>
+              <li className=" nav-link">
+                <Link
+                  className="activeLink"
+                  path="/about"
+                  to={"#about"}
+                  onClick={(e) => {
+                    addActiveClassName(e);
+                  }}
+                >
                   About
                 </Link>
               </li>
-              <li className="nav-link">
-                <Link to={"#skills"}>Skills</Link>
+              <li
+                className="nav-link"
+                onClick={(e) => {
+                  addActiveClassName(e);
+                }}
+              >
+                <Link
+                  to={"#skills"}
+                  onClick={(e) => {
+                    addActiveClassName(e);
+                  }}
+                >
+                  Skills
+                </Link>
               </li>
               <li className="nav-link">
-                <Link to={"#experience"}>Experience</Link>
+                <Link
+                  to={"#experience"}
+                  onClick={(e) => {
+                    addActiveClassName(e);
+                  }}
+                >
+                  Experience
+                </Link>
               </li>
               <li className="nav-link">
-                <Link to={"#projects"}>Projects</Link>
+                <Link
+                  to={"#projects"}
+                  onClick={(e) => {
+                    addActiveClassName(e);
+                  }}
+                >
+                  Projects
+                </Link>
               </li>
               <li className="nav-link">
-                <Link to={"#education"}>Education</Link>
+                <Link
+                  to={"#education"}
+                  onClick={(e) => {
+                    addActiveClassName(e);
+                  }}
+                >
+                  Education
+                </Link>
               </li>
               <li className="nav-link">
-                <Link to={"#contact"}>Contact</Link>
+                <Link
+                  to={"#contact"}
+                  onClick={(e) => {
+                    addActiveClassName(e);
+                  }}
+                >
+                  Contact
+                </Link>
               </li>
               <li className="">
                 <Link to={"#toggle-switch"}>Toggle Theme</Link>

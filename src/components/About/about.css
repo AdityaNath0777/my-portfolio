@@ -27,6 +27,13 @@
     word-spacing: 0.1rem;
 }
 
+
+@media (max-width: 1000px) {
+    .about-section {
+        width: 100% !important;
+    }
+}
+
 @media (max-width: 800px){
     .my-container h1 {
         font-size: 2rem;

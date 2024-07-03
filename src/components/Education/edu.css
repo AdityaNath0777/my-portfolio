@@ -17,6 +17,12 @@
   border-radius: 0.5rem;
 }
 
+@media (max-width: 1000px) {
+  #education {
+    width: 100%;
+  }
+}
+
 @media (max-width: 550px) {
   #education {
     margin-left: 0;

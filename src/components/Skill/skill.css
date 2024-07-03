@@ -38,6 +38,9 @@
     .my-desc {
         font-size: 0.9rem;
     }
+    .skill-section {
+        width: 100% !important;
+    }
 }
 @media (max-width: 800px){
 
