@@ -12,8 +12,9 @@ const Education = () => {
         <h2>My Education</h2>
         <div className="exp-container w-full flex flex-col justify-center items-center gap-3">
           <img src={myPic} alt="" style={{ width: "100px", height: "100px" }} />
-
-          {education.map(MyEdu)}
+          <div className="exp-list w-4/6 flex flex-col justify-center items-center gap-3 mx-auto ">
+            {education.map(MyEdu)}
+          </div>
         </div>
       </div>
     </div>

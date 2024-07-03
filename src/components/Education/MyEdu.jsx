@@ -6,7 +6,7 @@ export const MyEdu = (prop) => {
       <div className="exp-top flex items-center gap-3 mb-2">
         <div className="exp-right-box flex flex-col gap-1">
           <h3>{`${prop.courseName} - ${prop.branch}`}</h3>         
-          <p>
+          <p style={{color: "slategray"}} >
             {prop.duration.start} - {prop.duration.end}{" "}
             {prop.duration.expectedEnd ? "(Expected)" : ""}
           </p>

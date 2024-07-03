@@ -266,4 +266,6 @@ const myProjects = [
   },
 ];
 
+export const primaryBgColor = "rgb(248 250 252)";
+
 export { Bio, skills, techStack, myProjects, experience, education };

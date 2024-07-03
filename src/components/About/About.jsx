@@ -30,9 +30,9 @@ const About = () => {
               {Bio.description}
             </p>
             <div className="my-btn flex w-full justify-around items-center">
-              <button className=" bg-purple-600 px-3 py-2 m-4" >Contact Me</button>
+              <button className=" bg-sky-600/70 px-3 py-2 m-4 hover:bg-sky-800/80" >Contact Me</button>
               <button 
-                className="bg-purple-600 px-3 py-2 m-4"
+                className="bg-sky-600/80 px-3 py-2 m-4 backdrop-blur-lg hover:bg-sky-800/80"
                 onClick={(e) => {alert("you thinks it's my Resume?, but it'me DIO")}}
                 >
                 {"My Resum"}
