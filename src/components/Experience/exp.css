@@ -1,42 +1,46 @@
 .exp-section {
-    padding-top: 5rem;
+  padding-top: 5rem;
 }
 
 .exp-section h2 {
-    font-size: 2.3rem;
+  font-size: 2.3rem;
 }
 
 .exp-skills span {
-    /* color: gray; */
-    color: rgb(156, 163, 178);
+  /* color: gray; */
+  color: rgb(156, 163, 178);
 }
 
-.exp-skills span:hover{
-    color: rgb(216, 211, 214);
-    transition: all 0.1s ease-out;
+.exp-skills span:hover {
+  color: skyblue !important;
+  cursor:context-menu;
+  transition: all 0.1s ease-out;
+  font-size: 0.9rem;
+  transform: translateY(-3px);
+  filter: drop-shadow(2px 4px 6px #677099);
+  transition: all 0.2s ease-in-out;
 }
 
 .my-exp-container {
-    border: 2px solid rgb(216, 211, 214);
-    border-radius: 0.5rem;
+  border: 2px solid rgb(216, 211, 214);
+  border-radius: 0.5rem;
 }
 
+@media (max-width: 800px) {
+  .exp-section h2 {
+    font-size: 2rem;
+  }
 
-@media (max-width: 800px){
-    .exp-section h2 {
-        font-size: 2rem;
-    }
-
-    .exp-list {
-        width: 100% !important;
-    }
+  .exp-list {
+    width: 100% !important;
+  }
 }
 
-@media (max-width: 550px){
-    #experience {
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 0;
-        padding-right: 0;
-    }
+@media (max-width: 550px) {
+  #experience {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
