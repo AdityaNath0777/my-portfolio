@@ -10,7 +10,7 @@ export const ProjectMap = (prop) => {
           </div>
           <div className="exp-right-box flex justify-start w-full flex-col gap-1">
             <p className="exp-skills flex flex-wrap gap-2">
-              {prop.skills.map((skill) => {
+              {prop.tags.map((skill) => {
                 return (
                   <span className="flex" style={{ fontSize: "0.9rem" }}>
                     {skill}
@@ -18,7 +18,7 @@ export const ProjectMap = (prop) => {
                 );
               })}
             </p>
-            <h3>{prop.role}</h3>
+            <h3>{prop.name}</h3>
             <p>
               {prop.duration.start} to {prop.duration.end}
             </p>

@@ -4,13 +4,15 @@ import { HashLink as Link } from "react-router-hash-link";
 import "./navStyle.css";
 
 const Navbar = () => {
-  const MyLink = () => {
-    function NewTab() {
-      window.open("https://github.com/AdityaNath0777", "_blank");
-    }
 
-    NewTab();
-  };
+  // // for educational purposes
+  // const MyLink = () => {
+  //   function NewTab() {
+  //     window.open("https://github.com/AdityaNath0777", "_blank");
+  //   }
+
+  //   NewTab();
+  // };
 
   const addActiveClassName = (e) => {
     function myFunc() {

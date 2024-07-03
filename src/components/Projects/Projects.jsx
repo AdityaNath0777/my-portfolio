@@ -1,5 +1,5 @@
 import React from "react";
-import { experience } from "../../Data/constants";
+import { myProjects } from "../../Data/constants";
 import myPic from "/vite.svg";
 import { ProjectMap } from "./ProjectMap";
 import "./project.css";
@@ -12,12 +12,8 @@ const Projects = () => {
         <div className="exp-container w-full flex-col flex justify-center items-center gap-8">
           <img src={myPic} alt="" style={{ width: "100px", height: "100px" }} />
           <div className="grid my-projects-list grid-cols-3 gap-10">
-          {/* <div className="flex-row w-full flex justify-around items-center flex-wrap"> */}
-            {experience.map(ProjectMap)}
-            {experience.map(ProjectMap)}
-            {experience.map(ProjectMap)}
+            {myProjects.map(ProjectMap)}
           </div>
-
         </div>
       </div>
     </div>

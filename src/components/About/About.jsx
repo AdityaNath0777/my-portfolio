@@ -27,10 +27,7 @@ const About = () => {
               <span className="my-name ">{Bio.name}</span>
             </h1>
             <p className="my-desc">
-              {Bio.description} {" "}
-              {
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam atque deserunt, sint pariatur libero, ea hic harum sed fugiat minima totam? Veniam dolores nihil laboriosam. Exercitationem voluptatibus quis voluptas optio! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, fuga." 
-              }
+              {Bio.description}
             </p>
             <div className="my-btn flex w-full justify-around items-center">
               <button className=" bg-purple-600 px-3 py-2 m-4" >Contact Me</button>
