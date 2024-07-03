@@ -1,15 +1,16 @@
 import React from "react";
 import { Bio, techStack } from "../../Data/constants";
 import myPic from "/vite.svg";
-import './skill.css';
+import "./skill.css";
 
 const Skills = () => {
-
-
   const mySkill = (prop) => {
     console.log(prop.name);
     return (
-      <div className="my-skill border-2  border-gray-400 text-gray-400 " style={{ display: "inline-block" }}>
+      <div
+        className="my-skill border-2  border-gray-400 text-gray-400 "
+        style={{ display: "inline-block" }}
+      >
         <span>{prop.name}</span>
       </div>
     );
@@ -24,21 +25,7 @@ const Skills = () => {
         <div className="left-section flex flex-col  px-6 justify-center items-start w-3/5">
           <div className="my-skill-container">
             <h1 className="">{"My Skills"}</h1>
-
             <p> {techStack.map(mySkill)}</p>
-
-            <p className="my-desc">
-              {/* {Bio.description}{" "} */}
-              {
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam atque deserunt, sint pariatur. "
-              }
-            </p>
-            <p className="my-desc">
-              {/* {Bio.description}{" "} */}
-              {
-                "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam atque deserunt, sint pariatur."
-              }
-            </p>
           </div>
         </div>
       </div>
