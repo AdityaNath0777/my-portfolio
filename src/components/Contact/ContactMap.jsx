@@ -7,14 +7,14 @@ const ContactMap = (prop) => {
             <div className="exp-top flex flex-col items-start justify-start gap-3 mb-2">
               <div className="exp-img-box">
                 {/* <img src="/vite.svg" alt="" /> */}
-              <p className="tag-line">{prop.tagLine}</p>
+              <p className="contact-tag-line">{prop.tagLine}</p>
               </div>
               <div className="exp-right-box flex justify-start w-full flex-col gap-1">
                 <p className="exp-skills flex flex-wrap gap-2">
                 {""} {prop.title}
                 </p>
                 <h3 className='contact-name'>{`${prop.firstName} ${prop.lastName}`}</h3>
-                <p>
+                <p className='contact-address'>
                   {`${prop.city}, ${prop.state}, ${prop.country} `}
                 </p>
               </div>
