@@ -11,7 +11,8 @@
     padding: 0.2rem 0.4rem;
 }
 .nav-link a:hover {
-    border-color: blueviolet;
+    border-color: rgb(43, 125, 226);
+    backdrop-filter: blur(2px 4px 10px rgb(43 125 226));
     color: lightgray;
     transition: all 0.2 ease-in-out;
 }
@@ -69,6 +70,11 @@
         margin: auto;
         font-size: 1.5rem;
         text-align: center;
+    }
+
+    .nav-link a {
+        font-size: 1.1rem;
+        font-weight: 700;
     }
 }
 

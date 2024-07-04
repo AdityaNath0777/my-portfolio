@@ -3,7 +3,7 @@
   margin: auto 0 auto auto;
 }
 
-.tag-line {
+.contact-tag-line {
   font-size: 1.5rem;
 }
 .contact-name {
@@ -16,19 +16,25 @@
 
 @media (max-width: 800px) {
   .contact-container {
-    grid-template-columns: auto !important;
+    gap: 1.5rem !important;
   }
 
   .my-pic-container {
-    width: 100%;
+    width: 50%;
   }
   .my-pic-container img {
     margin: 1rem auto;
     width: 5rem;
   }
 
+  .contact-tag-line {
+    font-size: 1.2rem;
+  }
+  .mySocials {
+    width: 100% !important;
+  }
   .my-contact-desc {
-    width: 60%;
+    width: 100% !important;
   }
 }
 
@@ -46,5 +52,20 @@
     text-align: center;
     font-size: 2.1rem;
     padding: 0;
+  }
+  .contact-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 350px) {
+  .contact-tag-line {
+    font-size: 1rem;
+  }
+  .contact-name {
+    font-size: 1.3rem;
+  }
+  .contact-address {
+    font-size: 0.8rem;
   }
 }

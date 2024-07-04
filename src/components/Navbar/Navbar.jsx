@@ -111,9 +111,12 @@ const Navbar = () => {
                   Contact
                 </Link>
               </li>
-              <li className="">
+
+              {/* will add this functionality later */}
+              {/* <li className="">
                 <Link to={"#toggle-switch"}>Toggle Theme</Link>
-              </li>
+              </li> */}
+              
             </ul>
           </li>
         </Router>

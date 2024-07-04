@@ -1,14 +1,20 @@
 .my-btn button {
     border: 3px solid #f2f2f2;
     border-radius: 7px;
+    filter: drop-shadow(2px 4px 6px);
 }
 
 .my-btn button:hover {
     /* background-color: ; */
     color: #f0fffff0;
-    backdrop-filter: 4px;
+    filter: drop-shadow(0px 0px 0px);
     border-color:rgba(163, 194, 233, 0.8);
     transition: all 0.2s ease-in-out;
+}
+
+.my-btn button:active{
+    transform: translateY(2px);
+    transition: transform 0.2s ease-in-out;
 }
 
 .my-container h1 {
@@ -66,7 +72,7 @@
     }
     .my-container .my-desc {
         font-size: 0.9rem;
-        line-height: 1rem;
+        line-height: 1.4rem;
     }
 
     .my-container .my-name {
@@ -78,4 +84,18 @@
 
     }
 
+    .my-about-socials {
+        width: 100% !important;
+    }
+
+}
+
+
+@media (max-width: 400px) {
+    .my-container .mydesc {
+        line-height: 1.2rem;
+    }
+    .my-btn button {
+        font-size: 0.8rem;
+    }
 }
